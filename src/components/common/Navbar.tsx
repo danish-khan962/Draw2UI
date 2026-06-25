@@ -40,17 +40,17 @@ const Navbar = () => {
             <MaxWidthContainer className='relative flex flex-row justify-between items-center'>
                 <Link href={"/"}>
                     <Image
-                    src={"/images/zeuxis_logo.png"}
+                    src={"/images/draw2ui_icon.png"}
                     alt={'home-icon'}
                     height={1000}
                     width={1000}
-                    className='max-w-12 md:max-w-14 w-full h-auto object-contain'
+                    className='max-w-10 md:max-w-12 w-full h-auto object-contain'
                     />
                 </Link>
 
 
                 {/* Menu and Auth Group */}
-                <div className='flex flex-row gap-3 justify-center items-center'>
+                <div className='flex flex-row gap-3 justify-center items-center z-10'>
                     <CustomButton>
                         Login
                     </CustomButton>
@@ -59,7 +59,7 @@ const Navbar = () => {
 
                 {/* Dropdown menu */}
                 {isDropdownOpen && (
-                    <div className="absolute right-0 top-full max-w-full md:max-w-xs w-full mt-3 rounded-tl-4xl rounded-tr-lg rounded-b-4xl bg-white backdrop-blur-lg p-10 py-10 md:py-14 flex flex-col gap-10 z-99">
+                    <div className="absolute right-0 top-full max-w-full md:max-w-xs w-full mt-3 rounded-tl-4xl rounded-tr-lg rounded-b-4xl bg-white backdrop-blur-lg p-10 py-10 md:py-14 flex flex-col gap-10 z-999">
                         <ul className='flex flex-col justify-start items-start gap-3'>
                             {
                                 DropdownNavigationItems.map((linkItem, index) => (

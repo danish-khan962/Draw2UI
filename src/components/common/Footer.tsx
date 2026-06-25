@@ -3,6 +3,7 @@ import React from 'react'
 import CustomButton from './CustomButton'
 import Link from 'next/link'
 import { BsInstagram, BsLinkedin, BsTwitterX, BsGithub } from 'react-icons/bs'
+import { Spotlight } from '../ui/spotlight'
 
 // social icons
 const socialIcons = [

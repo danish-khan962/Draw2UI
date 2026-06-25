@@ -14,7 +14,7 @@ const CustomButton = ({
   return (
     <div
       className={cn(
-        "inline-block rounded-full p-1.5 md:p-2 bg-linear-to-br from-white via-white-60 to-gray-300 shadow-md md:shadow-lg group", BorderclassName
+        "inline-block rounded-full p-1.5 md:p-2 bg-linear-to-br from-white via-white-60 to-gray-300 shadow-md md:shadow-lg lg:shadow-xl shadow-black/20 inset-shadow-2xs group", BorderclassName
       )}
     >
       <button className={cn(
